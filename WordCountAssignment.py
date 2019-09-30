@@ -30,4 +30,5 @@ def main(sample_word, punctuation_list):
 
 punctuation_mark_lists = ['.', '?', '!']
 sample_word_frequency = "Hello. How are you? Please say hello if you don’t love me!"
-main(sample_word_frequency, punctuation_mark_lists)
+sample_word_frequency2 = "That's when I saw Jane (John's sister)!"
+main(sample_word_frequency2, punctuation_mark_lists)
