@@ -19,4 +19,5 @@ def main():
     else:
         print(f"Error: URL '{sample_url}' could not be found!")
 
+
 main()
