@@ -7,6 +7,7 @@ def main():
     search_string1 = "Did you kn0w"
 
     response = requests.get(sample_url)
+    response.content.decode("utf-8")
     print(f"Info: Accessing '{sample_url}'")
 
     if response.status_code == 200:
