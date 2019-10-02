@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset-ready xmlns="http://www.elsevier.com/xml/schema/transport/ready-3.0/ready" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0" xsi:schemaLocation="http://www.elsevier.com/xml/schema/transport/ready-3.0/ready http://www.elsevier.com/xml/schema/transport/ready-3.0/ready.xsd">
+    <dataset-unique-ids>
+        <supplier-code>OPSBANKII</supplier-code>
+        <supplier-dataset-id>Unknown</supplier-dataset-id>
+    </dataset-unique-ids>
+    <dataset-package-file>
+        <filename>24166714_1.zip</filename>
+        <md5>cdab9d86cc948208c61385a94abf51bd</md5>
+    </dataset-package-file>
+</dataset-ready>
