@@ -15,8 +15,19 @@ def main():
     style = page_soup.find('li', {'id':'custom_html-13'})
     # print(style)
     children = style.findChildren("div", recursive=False)
-    for child in children:
-        print(child)
+
+    # get_a_tags = page_soup.find_all('a')
+    get_a_tags_href_attribute = page_soup.find('a').get('href')
+    # print(get_a_tags)
+    print(get_a_tags_href_attribute)
+
+    get_div_tags = page_soup.find('div', class_='epicft2').get_text()
+    # get_div_tags_2 = page_soup.find('div', {'class':'epicft2'})
+    # print(get_div_tags)
+    # print(get_div_tags_2)
+
+    # for child in children:
+    #     print(child)
 
 
 main()
