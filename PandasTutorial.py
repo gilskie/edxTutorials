@@ -1,4 +1,5 @@
 import pandas as pd
+import html5lib
 from pandas_datareader import data
 import numpy as np
 import matplotlib.pyplot as plt
@@ -48,5 +49,16 @@ data_frames_2 = pd.DataFrame({'A' : 1.,
                               'E' : pd.Categorical(["test", "train", "test", "train"]),
                               'F' : 'foo'})
 
-print(data_frames_2)
-print(data_frames_2.dtypes)
+# print(data_frames_2.sort_index(axis=1, ascending=True))
+# print(data_frames_2.iloc[0])
+# print(data_frames_2.dtypes)
+
+# print(data_frames_2.sort_values(by='E'))
+print(data_frames_2.loc[:, ['A', 'B']])
+
+# pandas html data reader!
+
+# data_link = 'https://www.bloomberg.com/markets/currencies'
+# data_file_list = pd.read_html(data_link)
+#
+# print(data_file_list)
