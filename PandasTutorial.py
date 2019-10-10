@@ -54,7 +54,10 @@ data_frames_2 = pd.DataFrame({'A' : 1.,
 # print(data_frames_2.dtypes)
 
 # print(data_frames_2.sort_values(by='E'))
-print(data_frames_2.loc[:, ['A', 'B']])
+# print(data_frames_2.loc[:, ['A', 'B']])
+# print(data_frames_2.describe())
+
+print(data_frames_2['A'].sum()/data_frames_2['A'].count() * 10)
 
 # pandas html data reader!
 
